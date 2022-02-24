@@ -54,12 +54,13 @@
 
 .menu_options {
   list-style: none;
-  position: absolute;
+  position: fixed;
   height: 35vh;
   bottom: 0px;
   width: 100%;
   padding: 0 14px;
   color: #333333;
+  background-color: #fff;
 }
 
 .close_menu_options_btn {
