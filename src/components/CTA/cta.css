@@ -1,0 +1,41 @@
+.cta {
+  padding: 40px 20px;
+  text-align: center;
+  color: #2c3333;
+}
+
+.cta h3 {
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-bottom: 28px;
+}
+
+.cta span {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 14px;
+}
+
+.cta .contact_us {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #57331B;
+  padding: 20px 40px;
+  border-radius: 25px;
+  color: #fff;
+  margin-top: 20px;
+  -webkit-box-shadow: 14px 6px 25px -8px #000000; 
+  box-shadow: 14px 6px 25px -8px #000000;
+}
+
+.cta .contact_us:hover {
+  -webkit-box-shadow: 14px 6px 16px -8px #000000; 
+  box-shadow: 14px 6px 16px -8px #000000;
+}
+
+.cta .contact_us:active {
+  outline: none;
+}
