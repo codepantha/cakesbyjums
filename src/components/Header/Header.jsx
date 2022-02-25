@@ -13,7 +13,7 @@ const Header = () => {
         <p className="address">
           Cakes by Jums <br />
           36, Allen Street, Lekki Lagos <br />
-          <span class="tel bold">
+          <span className="tel bold">
             <a href='tel: +2347037464332'>(+234)7037464332</a>
           </span>
         </p>
@@ -23,7 +23,7 @@ const Header = () => {
           Sun Closed
         </p>
       </div>
-      <div class="header_bottom">
+      <div className="header_bottom">
         <img className="header_bottom_cake" src={cake} />
       </div>
     </header>
