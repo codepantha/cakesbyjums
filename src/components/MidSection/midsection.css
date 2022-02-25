@@ -1,0 +1,70 @@
+.mid_section {
+  display: flex;
+  flex-direction: column;
+}
+
+.mid_section_title {
+  font-family: 'Great Vibes', cursive;
+  font-size: 28px;
+  font-weight: 300;
+  text-transform: capitalize;
+  margin-top: 40px;
+}
+
+.mid_section_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.mid_section_top .short_border {
+  width: 7%;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  border: 2px solid #57331b;
+}
+
+.mid_section_info {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 24px;
+  font-family: 'Lato', sans-serif;
+}
+
+.mid_section_bottom {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 100%;
+  background-image: url("/src/assets/chef2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: -1;
+}
+
+.mid_section_bottom .bg {
+  background-image: linear-gradient(to right, rgb(47 51 56), rgba(120,130,164, 0.1));
+  height: 100%;
+}
+
+.mid_section_bottom .message {
+  position: absolute;
+  top: 40px;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.message h3 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.message p {
+  font-size: 18px;
+  line-height: 23px;
+}

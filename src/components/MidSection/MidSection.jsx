@@ -6,7 +6,7 @@ const MidSection = () => {
     <section className="mid_section">
       <div className="mid_section_top">
         <h3 className="mid_section_title">A cake for every occasion.</h3>
-        <hr />
+        <hr className="short_border" />
         <p className="mid_section_info">
         Welcome to Cakes By Jums Homemade Cakes, your favourite cake shop in Nigeria! 
         Established in 1969, we bake and serve a tantalising selection of traditional
