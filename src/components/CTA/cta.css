@@ -21,11 +21,9 @@
 
 .cta .contact_us {
   display: inline-block;
-  text-decoration: none;
   background-color: #57331B;
   padding: 20px 40px;
   border-radius: 25px;
-  color: #fff;
   margin-top: 20px;
   -webkit-box-shadow: 14px 6px 25px -8px #000000; 
   box-shadow: 14px 6px 25px -8px #000000;

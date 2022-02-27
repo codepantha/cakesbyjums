@@ -3,7 +3,7 @@ import './contact.css';
 
 const Contact = () => {
   return (
-    <section className="contact">
+    <section className="contact" id="contact">
       <div className="form_container">
         <h4 className="form_heading">Quote / Contact</h4>
         <form className="contact_form" method="post" action="https://formspree.io/f/xyyowrdb">
@@ -32,7 +32,7 @@ const Contact = () => {
             <input className="field" type="email" required name="email" placeholder="jane@doe.com" />
           </div>
 
-          <button type="submit" className="contact_us">Send</button>
+          <button type="submit" className="contact_us white_link">Send</button>
         </form>
       </div>
       

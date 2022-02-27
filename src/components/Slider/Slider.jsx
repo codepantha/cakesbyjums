@@ -22,7 +22,7 @@ const cakeInfo = [
 
 const Slider = () => {
   return (
-    <section className="slider">
+    <section className="slider" id="cakes-and-pies">
       <MySlider renderControls={(next, previous) => [
           <button className="left_btn" onClick={previous}>&lt;</button>,
           <button className="right_btn" onClick={next}>&gt;</button>

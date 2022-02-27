@@ -48,6 +48,11 @@
   cursor: pointer;
 }
 
+.white_link {
+  color: #fff;
+  text-decoration: none;
+}
+
 .active {
   background: #938779;
 }
@@ -84,6 +89,11 @@
   border-bottom: 1px solid #f4f3f1;
   width: 100%;
   cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: #2c3333;
 }
 
 .menu_item:nth-last-child(2) {

@@ -2,12 +2,6 @@
   text-align: center;
 }
 
-.contact_us {
-  padding: 20px;
-  margin-bottom: 100px;
-  text-align: center;
-}
-
 .contact_form {
   padding: 20px;
 }
@@ -47,11 +41,12 @@ textarea {
 
 .contact_us {
   display: inline-block;
-  text-decoration: none;
   background-color: #57331B;
+  margin-bottom: 100px;
+  text-align: center;
   padding: 20px 40px;
   border-radius: 25px;
-  color: #fff;
+  border: none;
   margin-top: 20px;
   -webkit-box-shadow: 14px 6px 25px -8px #000000; 
   box-shadow: 14px 6px 25px -8px #000000;

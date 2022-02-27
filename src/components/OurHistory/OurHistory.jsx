@@ -4,7 +4,7 @@ import cake2 from '../../assets/cake2.jpg'
 
 const OurHistory = () => {
   return (
-    <section className="history">
+    <section className="history" id="history">
       <div className="history_top">
         <h3 className="history_title">Cakes by Jums</h3>
         <h3 className="years_old">Over 5 Years <span className="quality">of Quality</span></h3>

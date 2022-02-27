@@ -5,7 +5,7 @@ import cake from '../../assets/cake.jpg'
 
 const Header = () => {
   return (
-    <header className="header">
+    <header className="header" id="home">
       <div className="header_top scale-up-hor-center">
         <h1 className="title">Cakes by Jums</h1>
         <img className="header_chef" src={chef} />
