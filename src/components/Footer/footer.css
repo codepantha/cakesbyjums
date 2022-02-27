@@ -16,31 +16,43 @@
 
 .footer_text {
   cursor: pointer;
-  color: #2c3333;
+  color: #051367;
+  position: relative;
+  z-index: -1;
 }
 
 .footer_text a {
   text-decoration: none;
-  color: #2c3333;
+  color: #051367;
 }
 
 .chat img {
   height: 100px;
   width: 100px;
+}
+
+.beating_heart {
   animation: heart_beat 2s infinite;
+}
+
+.heart {
+  position: absolute;
+  top: -2px;
 }
 
 @keyframes heart_beat {
   0% {
     transform: scale(0.95);
+    font-size: 16px;
   }
   
   70% {
     transform: scale(1.2);
-    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    font-size: 19px;
   }
   
   100% {
     transform: scale(0.95);
+    font-size: 16px;
   }
 }

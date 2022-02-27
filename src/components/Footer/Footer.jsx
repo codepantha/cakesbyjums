@@ -9,12 +9,12 @@ const Footer = () => {
         <a 
           href="https://api.whatsapp.com/send?phone=2347037523771&text=Lynotek...%20Giving%20your%20business%20digital%20wings"
         >
-          <img src={chat} />
+          <img className="beating_heart" src={chat} />
         </a>
       </div>
-      <p className="footer_text">Made with ❤️ by 
+      <pre className="footer_text">Made with<span className="beating_heart heart">❤️</span>      by 
         <a href="https://codepantherr.github.io/Portfolio/"> Codepantherr</a>
-      </p>
+      </pre>
     </footer>
   )
 }
