@@ -1,0 +1,46 @@
+.footer {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.chat {
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  top: 70vh;
+  right: 5px;
+}
+
+.footer_text {
+  cursor: pointer;
+  color: #2c3333;
+}
+
+.footer_text a {
+  text-decoration: none;
+  color: #2c3333;
+}
+
+.chat img {
+  height: 100px;
+  width: 100px;
+  animation: heart_beat 2s infinite;
+}
+
+@keyframes heart_beat {
+  0% {
+    transform: scale(0.95);
+  }
+  
+  70% {
+    transform: scale(1.2);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+  
+  100% {
+    transform: scale(0.95);
+  }
+}

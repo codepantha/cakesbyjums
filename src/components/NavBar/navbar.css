@@ -42,7 +42,7 @@
   padding: 20px;
 }
 
-.nav_right .contact {
+.nav_right .contact_right {
   font-size: 14px;
   margin-left: auto;
   cursor: pointer;
@@ -55,8 +55,8 @@
 .menu_options {
   list-style: none;
   position: fixed;
-  height: 35vh;
-  bottom: 0px;
+  height: 40.5vh;
+  bottom: -30px;
   width: 100%;
   padding: 0 14px;
   color: #333333;

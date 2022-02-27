@@ -46,7 +46,7 @@ const NavBar = () => {
           </div>
         </div>
         <div className="nav_right">
-          <span className="contact">Contact us</span>
+          <span className="contact_right">Contact us</span>
         </div>
       </nav>
       {open && <MenuOptions open={open} setOpen={setOpen} />}
